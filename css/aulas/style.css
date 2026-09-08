@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Smooch+Sans:wght@100..900&display=swap');
+body {
+    background-color: #f3f1ee;
+    color: #2f2f2f;
+}
+
+*{
+
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #7a5a45;
+}
+
+p{
+    text-indent: 16px;
+}
+
+
+h1, p {
+    font-size: 16px;
+    border: 3px solid #8a6f5a;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+a.botao1{
+    background-color: #c98a5b;
+    color: #ffffff;
+    padding: 35px;
+    border: 5px solid #7a8f86;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+    height: 3rem;
+}
+
+
+
+
+a.botao1:hover{
+    background-color: #8ca39a;
+    color: #ffffff;
+}
+
+a.botao2{ 
+    text-decoration: none;
+    padding: 36px;
+    border: 5px solid #7a8f86;
+
+    cursor: pointer;
+    background-color: #7a8fa3;
+    color: #f4f6f8;
+}
+
+a.botao2:hover{ 
+    text-decoration: underline;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #9aa98d;
+    color: #1f1f1f;
+}
+
+a.botao3{ 
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid #7a8f86;
+    cursor: pointer;
+    background-color: #a66f6f;
+    color: #f8f8f8;
+}
+
+a.botao3:hover{ 
+    text-decoration: underline;
+    padding: 1cm;
+    cursor: pointer;
+    background-color: #b08d7a;
+    color: #1f1f1f;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+a.botao4{ 
+    text-decoration: none;
+    padding: 20px;
+    border: 5px solid #7a8f86;
+    cursor: block;
+    background-color: #a66f6f;
+    color: #f8f8f8;
+}       
+a.botao4:hover{ 
+
+
+    text-decoration: underline;
+    padding: 40px;
+    cursor: wait;
+    background-color: #8b7592;
+    color: #f0e5ea;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.position-img{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.position-relative{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+
+.position-fixed{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+.conteudo{
+    max-width: 800px;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.red{
+
+
+    background-color: #c66a6a;
+}
+
+.green{
+    background-color: #7d9a82;
+}
+
+.blue{
+    background-color: #7c8ea3;
+}
+
+a.botao5{ 
+    text-decoration: none;
+
+
+    padding: 30px;
+    border: 5px solid #7a8f86;
+    cursor: block;
+    background-color: #a66f6f;
+    color: #f8f8f8;
+}
+
+a.botao5:hover { 
+    text-decoration: underline;
+    padding: 20px;
+    cursor: help;
+    background-color: #4a4c3d;
+    color: #e7d4d4;
+
+
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.txt-th{
+    text-decoration: line-through;
+}
+.txt-center {
+    text-align: center;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-left {
+    text-align: left;
+
+}
+
+.txt-justify {
+    text-align: justify;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+.txt-lowercase {
+    text-transform: lowercase;
+}
+
+.txt-direct {
+    direction: rtl;
+}
+
+.center {
+    text-align: center;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+
+.font-20 {
+    font-size: 20px;
+}
+
+#teste {
+    color: #7a5a45;
+    font-size: 24px;
+}
+
+.center {
+    text-align: center;
+}
+
+.background {
+    background-color: #d8d1c8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.bck-img{
+    background-image: url('../css/img/paisagem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    color: white;
+}
+
+.botao{
+    background-color: #c98a5b;
+    color: #ffffff;
+    padding: 30px;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    height: 3rem;
+}
+
+.tamanho-div{
+    max-width: 200px;
+    height: 45rem;
+}

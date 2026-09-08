@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário Aqui</h1>
+
+    <form>
+
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+
+        <br> <br>
+
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite um email" required>
+
+        <br> <br>
+
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite uma senha" required>
+
+        <br><br>
+
+        <h2>Animal de estimação</h2>
+
+        <input type="radio" id="dog" name="animal" value="Cachorro">
+        <label for="dog">Cachorro</label>
+
+        <br><br>
+
+        <input type="radio" id="cat" name="animal" value="Gato">
+        <label for="cat">Gato</label>
+
+        <br><br>
+
+        <input type="radio" id="bird" name="animal" value="Papagaio">
+        <label for="bird">Papagaio</label>
+
+        <br><br>
+
+        <input type="radio" id="hamster" name="animal" value="Hamster">
+        <label for="hamster">Hamster</label>
+
+        <br><br>
+
+        <h2>O que você tem em casa?</h2>
+
+        <input id="item1" type="checkbox" name="item1" value="Sofá">
+        <label for="item1">Sofá</label>
+
+        <br><br>
+        <input id="item2" type="checkbox" name="item2" value="Notebook">
+        <label for="item2">Notebook</label><br><br>
+        <input id="item3" type="checkbox" name="item3" value="Geladeira">
+        <label for="item3">Geladeira</label>
+
+        <br><br>
+        <input id="item4" type="checkbox" name="item4" value="Microondas">
+        <label for="item4">Microondas</label>
+
+        <br><br>
+
+        <h2>Escolha uma cor:</h2>
+
+        <select name="cores">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="roxo">Roxo</option>
+            <option value="verde">Verde</option>
+            <option value="laranja">Laranja</option>
+            <option value="cinza">Cinza</option>
+            <option value="preto">Preto</option>
+        </select>
+
+        <br><br>
+
+        <h2>Digite sua mensagem:</h2>
+
+        <textarea required name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="55"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar Formulário">
+    </form>
+		
+        <button>Botão Aleatório</button>
+
+    <br><br>
+    <hr>
+    <br>
+    <a href="index.html">Voltar para principal</a>
+    <br><br>
+</body>
+
+</html>

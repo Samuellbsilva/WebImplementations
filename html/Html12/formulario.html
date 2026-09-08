@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+
+    <label for="campo_nome">Nome:</label>
+    <input id="campo_nome" type="text" placeholder="Digite seu nome" required><br><br>
+
+    <label for="campo_email">Email:</label>
+    <input id="campo_email" type="email" placeholder="Digite seu email" required><br><br>
+    
+    <label for="campo_senha">Senha:</label>
+    <input id="campo_senha" type="password" placeholder="Digite sua senha" required><br><br>
+
+    <br><hr><br>
+
+    <h2>Animal de Estimação</h2>
+    
+    <input type="radio" name="animal" value="cachorro" id="cachorro" >
+    <label for="cachorro">Cachorro</label> <br> <br>
+
+    <input type="radio" name="animal" value="gato" id="gato" >
+    <label for="gato">Gato</label><br><br>
+
+    <input type="radio" name="animal" value="papagaio" id="papagaio" > 
+    <label for="papagaio">Papagaio</label> <br><br>
+
+    <input type="radio" name="animal" value="hamster" id="hamster" > 
+    <label for="hamster">Hamster</label> <br><br>
+
+    <hr><br>
+
+    <h2>O que você tem em casa?</h2>
+
+    <input id="item1" type="checkbox" name="item1" value="Sofá" >
+    <label for="item1">Sofá</label><br><br>
+
+    <input id="item2" type="checkbox" name="item2" value="Notebook" >
+    <label for="item2">Notebook</label><br><br>
+
+    <input id="item3" type="checkbox" name="item3" value="Geladeira" >
+    <label for="item3">Geladeira</label><br><br>
+
+    <input id="item4" type="checkbox" name="item4" value="Microondas" >
+    <label for="item4">Microondas</label><br><br>
+
+    <hr>
+
+    <h2>Escolha uma cor</h2>
+    
+    <select name="cores" required>
+        <option disabled selected value="">Selecione uma cor</option>
+        <option value="roxo">Roxo</option>
+        <option value="verde">Verde</option>
+        <option value="laranja">Laranja</option>
+        <option value="cinza">Cinza</option>
+        <option value="preto">Preto</option>
+    </select><br><br>
+
+    <hr>
+
+    <h2>Digite uma mensagem</h2>
+
+    <textarea name="mensagem" placeholder="Digite aqui sua mensagem..." rows="15" cols="55" required></textarea><br><br>
+
+    <input type="submit" value="Enviar Formulário">
+
+
+    </form><br>
+
+    <button>Clique aqui</button>
+    <hr>
+    <br>
+
+    <a href="index.html" target="_blank">Voltar para a página principal</a><br>
+    
+</body>
+</html>
