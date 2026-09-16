@@ -4,6 +4,7 @@ Repositório com os arquivos desenvolvidos durante a disciplina de Desenvolvimen
 
 ## Estrutura do projeto
 
+
 ```
 TrabalhoWeb/
 ├── html/           → Snippets e exercícios de HTML
