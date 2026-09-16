@@ -13,6 +13,7 @@ html { scroll-behavior: smooth; }
 body {
 	font-family: var(--sn); font-weight: 300; color: var(--bk);
 	background: var(--wh); line-height: 1.75; overflow-x: hidden;
+	font-size: 1.125rem;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -161,7 +162,7 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 
 #sobre {
 	background: linear-gradient(to bottom, var(--wh) 0%, var(--cr) 100%);
-	padding: 9rem 5% 7rem;
+	padding: 5rem 5% 4rem;
 }
 .sobre-inner {
 	max-width: 1050px; margin: 0 auto; display: flex;
@@ -190,7 +191,7 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	color: var(--gd); margin-bottom: 1.8rem;
 }
 .sobre-text p {
-	font-size: .92rem; color: var(--bks); margin-bottom: 1rem;
+	font-size: 1.15rem; color: var(--bks); margin-bottom: 1.25rem; line-height: 1.8;
 }
 .signature {
 	font-family: var(--sc); font-size: 2.2rem;
@@ -202,7 +203,7 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 #abordagem {
 	background: linear-gradient(to bottom,
 		var(--cr) 0%, var(--bd) 30%, var(--bks) 60%, var(--bd) 100%);
-	padding: 7rem 5% 5rem; color: var(--wh);
+	padding: 4.5rem 5% 3.5rem; color: var(--wh);
 }
 .abordagem-header {
 	text-align: center; max-width: 550px; margin: 0 auto 4rem;
@@ -232,11 +233,11 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 }
 .servico:hover .servico-num { transform: translateX(6px); }
 .servico h3 {
-	font-family: var(--sf); font-weight: 400; font-size: 1.15rem;
-	letter-spacing: .04em; margin-bottom: .5rem; transition: color .3s ease;
+	font-family: var(--sf); font-weight: 400; font-size: 1.35rem;
+	letter-spacing: .04em; margin-bottom: .8rem; transition: color .3s ease;
 }
 .servico:hover h3 { color: var(--gl); }
-.servico p { font-size: .85rem; color: rgba(248,247,244,.5); line-height: 1.7; }
+.servico p { font-size: 1.05rem; color: rgba(248,247,244,.6); line-height: 1.8; }
 
 .abordagem-img {
 	max-width: 500px; margin: 4rem auto 0; overflow: hidden;
@@ -250,7 +251,7 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 
 #agendar {
 	background: linear-gradient(to bottom, var(--bd) 0%, var(--bk) 100%);
-	padding: 8rem 5%; color: var(--wh); text-align: center;
+	padding: 5rem 5%; color: var(--wh); text-align: center;
 }
 .agendar-inner {
 	max-width: 600px; margin: 0 auto;
@@ -261,8 +262,8 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	letter-spacing: .03em; margin-bottom: 1.2rem; line-height: 1.25;
 }
 .agendar-desc {
-	font-size: .92rem; color: rgba(248,247,244,.55);
-	margin-bottom: 2.5rem; line-height: 1.8;
+	font-size: 1.15rem; color: rgba(248,247,244,.65);
+	margin-bottom: 2.5rem; line-height: 1.9;
 }
 .agendar-inner .btn-gold { margin-bottom: 2.5rem; }
 .agendar-info p {
@@ -297,4 +298,47 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	.sobre-img { flex: 0 0 200px; }
 	#sobre, #abordagem, #agendar { padding: 4.5rem 6%; }
 	.hero-scroll { display: none; }
+}
+
+@media (min-width: 1400px) {
+	body {
+		font-size: 1.35rem;
+	}
+	nav ul a {
+		font-size: 1rem;
+	}
+	.logo {
+		font-size: 1.4rem;
+	}
+	#hero h1 {
+		font-size: clamp(3rem, 5vw, 4.5rem);
+	}
+	.hero-sub {
+		font-size: 1.3rem;
+	}
+	.btn-gold {
+		font-size: 1rem;
+		padding: 1.2rem 3rem;
+	}
+	.sobre-inner, .abordagem-grid {
+		max-width: 1400px;
+	}
+	.sobre-text h2, .abordagem-header h2, .agendar-inner h2 {
+		font-size: clamp(2.4rem, 4vw, 3.2rem);
+	}
+	.section-label {
+		font-size: 0.9rem;
+	}
+	.servico h3 {
+		font-size: 1.6rem;
+	}
+	.servico p {
+		font-size: 1.15rem;
+	}
+	.sobre-text p {
+		font-size: 1.25rem;
+	}
+	.agendar-desc {
+		font-size: 1.25rem;
+	}
 }
