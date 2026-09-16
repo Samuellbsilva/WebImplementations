@@ -6,22 +6,18 @@
 	--sn: 'Montserrat', 'Segoe UI', sans-serif;
 	--sc: 'Pinyon Script', cursive;
 }
-
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-
 body {
 	font-family: var(--sn); font-weight: 300; color: var(--bk);
 	background: var(--wh); line-height: 1.75; overflow-x: hidden;
 	font-size: 1.125rem;
 	-webkit-font-smoothing: antialiased;
 }
-
 img, video { display: block; max-width: 100%; }
 a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 address { font-style: normal; }
-
 @keyframes fadeUp {
 	from { opacity: 0; transform: translateY(40px); }
 	to { opacity: 1; transform: translateY(0); }
@@ -38,7 +34,6 @@ address { font-style: normal; }
 	0%, 100% { opacity: .6; }
 	50% { opacity: 1; }
 }
-
 .anim-fade-up { animation: fadeUp .9s ease-out both; }
 .anim-fade-in { animation: fadeIn 1.2s ease both; }
 .anim-d1 { animation-delay: .2s; }
@@ -46,13 +41,11 @@ address { font-style: normal; }
 .anim-d3 { animation-delay: .6s; }
 .anim-d4 { animation-delay: .8s; }
 .anim-bounce { animation: bounce 2s ease-in-out infinite; }
-
 .section-label {
 	font-family: var(--sn); font-weight: 500; font-size: .72rem;
 	letter-spacing: .3em; text-transform: uppercase;
 	color: var(--gd); margin-bottom: 1rem;
 }
-
 .btn-gold {
 	display: inline-block; font-family: var(--sn); font-weight: 500;
 	font-size: .82rem; letter-spacing: .15em; text-transform: uppercase;
@@ -71,13 +64,11 @@ address { font-style: normal; }
 	box-shadow: 0 12px 40px rgba(184,155,94,.35);
 }
 .btn-gold:hover::before { transform: scaleX(1); }
-
 #header {
 	position: fixed; top: 0; left: 0; width: 100%; z-index: 100;
 	background: linear-gradient(to bottom, rgba(11,11,11,.75), transparent);
 	padding: 1.5rem 5%; animation: fadeIn 1s ease both;
 }
-
 nav {
 	display: flex; align-items: center; justify-content: space-between;
 	max-width: 1200px; margin: 0 auto;
@@ -88,7 +79,6 @@ nav {
 }
 .logo:hover { opacity: .7; }
 .logo span { color: var(--gd); }
-
 nav ul { display: flex; align-items: center; gap: 2.5rem; }
 nav ul a {
 	font-size: .78rem; font-weight: 400; letter-spacing: .15em;
@@ -102,7 +92,6 @@ nav ul a::after {
 }
 nav ul a:hover { color: var(--wh); }
 nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
-
 .btn-nav {
 	border: 1px solid var(--gd) !important;
 	padding: .5rem 1.4rem; color: var(--gd) !important;
@@ -112,7 +101,6 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	background: var(--gd); color: var(--wh) !important; transform: scale(1.05);
 }
 .btn-nav::after { display: none !important; }
-
 #hero {
 	position: relative; height: 100vh; min-height: 600px;
 	display: flex; align-items: center; justify-content: center;
@@ -145,7 +133,6 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	font-weight: 300; font-size: 1rem;
 	color: rgba(248,247,244,.6); margin-bottom: 2.5rem;
 }
-
 .hero-scroll {
 	position: absolute; bottom: 2.5rem; left: 50%; margin-left: -10px;
 }
@@ -159,7 +146,6 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	border-radius: 2px; position: absolute; top: 6px; left: 50%;
 	margin-left: -1.5px; animation: pulse 1.8s ease-in-out infinite;
 }
-
 #sobre {
 	background: linear-gradient(to bottom, var(--wh) 0%, var(--cr) 100%);
 	padding: 5rem 5% 4rem;
@@ -199,7 +185,6 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	transition: transform .3s ease;
 }
 .signature:hover { transform: rotate(-2deg) scale(1.05); }
-
 #abordagem {
 	background: linear-gradient(to bottom,
 		var(--cr) 0%, var(--bd) 30%, var(--bks) 60%, var(--bd) 100%);
@@ -238,7 +223,6 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 }
 .servico:hover h3 { color: var(--gl); }
 .servico p { font-size: 1.05rem; color: rgba(248,247,244,.6); line-height: 1.8; }
-
 .abordagem-img {
 	max-width: 500px; margin: 4rem auto 0; overflow: hidden;
 	border-radius: 200px 200px 60px 60px;
@@ -248,7 +232,6 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	object-position: center top; transition: transform .7s ease;
 }
 .abordagem-img:hover img { transform: scale(1.06); }
-
 #agendar {
 	background: linear-gradient(to bottom, var(--bd) 0%, var(--bk) 100%);
 	padding: 5rem 5%; color: var(--wh); text-align: center;
@@ -270,7 +253,6 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	font-size: .78rem; letter-spacing: .1em;
 	color: rgba(248,247,244,.35);
 }
-
 #footer {
 	background: var(--bk); padding: 2.5rem 5%; text-align: center;
 	border-top: 1px solid rgba(184,155,94,.1);
@@ -284,13 +266,11 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 #footer p {
 	font-size: .72rem; color: rgba(248,247,244,.3); letter-spacing: .06em;
 }
-
 @media (max-width: 900px) {
 	nav ul { gap: 1.5rem; }
 	.sobre-inner { flex-direction: column; text-align: center; gap: 2.5rem; }
 	.sobre-img { flex: 0 0 250px; }
 	.servico { flex: 1 1 100%; }
-
 }
 @media (max-width: 600px) {
 	nav ul li a:not(.btn-nav) { display: none; }
@@ -299,7 +279,6 @@ nav ul a:hover::after { transform: scaleX(1); transform-origin: left; }
 	#sobre, #abordagem, #agendar { padding: 4.5rem 6%; }
 	.hero-scroll { display: none; }
 }
-
 @media (min-width: 1400px) {
 	body {
 		font-size: 1.35rem;
